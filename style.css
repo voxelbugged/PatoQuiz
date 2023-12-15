@@ -1,0 +1,70 @@
+#center 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20vh);
+    max-width: 100%; 
+    max-height: 100%; 
+}
+  
+#button-container 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+}
+
+button
+{
+    width: 200px;
+    height: 100px;
+    font-family: 'Comic Sans MS';
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-size:125%;
+}
+body, html
+{
+    text-align:center;
+    margin:0;
+    background-color:lightgoldenrodyellow;
+    font-family:'Comic Sans MS';    
+    overflow:hidden;
+}
+#pytanie
+{
+    font-size:200%;
+    width:100%;
+    padding:2vh;
+}
+#naglowek
+{
+    font-size:150%;
+    background-color:bisque;
+    height:15vh;
+}
+h1, p
+{
+    margin:0;
+}
+#wygrana
+{
+    font-size:200%;
+    color:green;
+}
+#przegrana
+{
+    font-size:200%;
+    color:red;
+}
+#gra
+{
+    height:80vh;
+}
+#stopka
+{
+    height:5vh;
+    background-color:bisque;    
+}
