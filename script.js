@@ -116,7 +116,7 @@ function odp(odpowiedz)
         pytanie++;
         if(pytanie == 16)
         {
-            document.getElementById("gra").innerHTML = "<a id='wygrana'>Kongratulejszyns! Wygrałeś/łaś/łoś i udowodniłeś/łaś/łoś że nie jesteś debilem!</a> <br> <button onclick='location.reload();'>Zagraj ponownie?</button>";
+            document.getElementById("gra").innerHTML = "<a id='wygrana'>Kongratulejszyns! Wygrałeś/łaś/łoś i udowodniłeś/łaś/łoś że nie jesteś/taś/toś debilem/lam/lom!</a> <br> <button onclick='location.reload();'>Zagraj ponownie?</button>";
         }
         else
         {
