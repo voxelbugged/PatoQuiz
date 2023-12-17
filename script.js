@@ -55,7 +55,7 @@ const srednieTemplate = [
     ['Czy odpowiedziałeś/łaś poprawnie na poprzednie pytanie?', 'Tak', 'Nie', 'Nie pamiętam', 'Tak, ale odpowiem na to niepoprawnie'],
     ['Jak nazywa się sławny ksiądz z Sandomierza?', 'Ojciec Mateusz', 'Ojciec Rydzyk', 'Ojciec Tadeusz', 'Ojciec Magda Gessler'],
     ['Jakie słowa występują w pieśni I Brygady Legionów Polskich?', 'Legiony to żołnierska nuta, legiony to straceńców los', 'Ukradli gacie moimu tacie złodzieje!', 'Ooh wee ooh, I look just like Rivers Cuomo!', 'Chipi chipi chapa chapa dubi dubi daba daba'],
-    ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "You understand mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer, mit ner 40 Tausend Kilowatt Basskanone']
+    ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "Mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer']
 ];
 const trudneTemplate = [
     ['Dlaczego voxelbugged jest wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
@@ -99,6 +99,10 @@ var temporary = [];
 var numarray = [1, 2, 3, 4]
 var numerek = 0;
 var endless = false;
+
+var dalej = new Audio('kosciotrup.mp3')
+var rip = new Audio('rip.mp3')
+var win = new Audio('gratulejszyns.mp3')
 
 function randomize(values) //bardzo oryginalny kod do not steal
 {
@@ -152,16 +156,19 @@ function odp(odpowiedz)
         if(pytanie == 19)
         {
             document.getElementById("gra").innerHTML = "<a id='wygrana'>Kongratulejszyns! Wygrałeś/łaś/łoś i udowodniłeś/łaś/łoś że nie jesteś/taś/toś debilem/lam/lom!</a> <br> <button onclick='location.reload();'>Zagraj ponownie?</button>";
+            win.play();
         }
         else
         {
             document.getElementById("licznik").innerHTML = pytanie;
             generuj()
+            dalej.play();
         }
     }
     else
     {
         document.getElementById("gra").innerHTML = "<a id='przegrana'>Niestety nie. Poprawna odpowiedź to: " + poprawna +".</a><br> <button onclick='location.reload();'>Spróbuj ponownie?</button>";
+        rip.play();
     }
     
 }
