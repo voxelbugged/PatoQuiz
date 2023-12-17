@@ -31,7 +31,7 @@ const srednieTemplate = [
     ['Jak ma na imię voxelbugged, twórca tej zacnej gry?', 'Jędrzej Kawa', 'Macij Hawyr', 'Andrzej Harkot', 'Jorge Mario Bergoglio'],
     ['Jakiego wyznania był św. Monitor?', 'Katolicyzm', 'Patolicyzm', 'PC Master Race', 'Prawosławie'],
     ['Jak miał na nazwisko Wolter?', 'Arouet', 'Wolter', 'White', 'François-Marie'],
-    ['Jak nazywają się dwa koty voxela?', 'Pusia i Zenia', 'Kicikici i Belzebub Imperator', 'Mruczek i Miałczek', 'voxelbugged ma jednego kota'],
+    ['Jak nazywają się moje dwa koty?', 'Pusia i Zenia', 'Kicikici i Belzebub Imperator', 'Mruczek i Miałczek', 'voxelbugged ma jednego kota'],
     ['Co oznacza skrót SPD?', 'Sozialdemokratische Partei Deutschlands', 'Sozialnational Partei Demokratische', 'spadaj', 'Polskie Stowarzyszenie Dyslektyków'],
     ['Kim z zawodu był Theodore John Kaczynski?', 'Matematykiem', 'Islamskim terrorystą', 'Liderem okręgu przemysłowego', 'Bratem Jarosława Kaczyńskiego'],
     //['Jak ma na pierwsze imię krzesło Juliusz dąb sonoma?', 'Placuch', 'Racuch', 'Mbambarabambava Mbahambalamba', 'idk'],
@@ -58,12 +58,12 @@ const srednieTemplate = [
     ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "Mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer']
 ];
 const trudneTemplate = [
-    ['Dlaczego voxelbugged jest wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
+    ['Dlaczego jestem wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
     ['Jak poprawnie zagrać tzw. "The Lick" na pianinie?', 'A B C D B G A', 'E E E E E E', 'G A C A E E D', 'G E E F D D'],
     ['Który król stworzył Państwo Kościelne?', 'Pepin III Krótki', 'Państwo kościelne założył papież', 'Peppino Spaghetti', 'Karol I Wielki'],  
     ['Jak nazywał się nauczyciel w brytyjskim sitcomie pt. "Mind Your Language"?', 'Jeremy Brown', 'Grzegorz Braun', 'George White', 'Walter White'],
     ['Jaki jest wzór na pole powierzchni koła?', 'πr^2', '2hπ', 'π(w/o)^2', '2r^π'],
-    ['Jaką grą voxelbugged wygrał Axxess Game Jam 2022?', 'Poltergeist Heist', 'Color Plane', 'Właśnie tą', 'Grand Theft Auto: San Escobar'],
+    ['Jaką grą wygrałem Axxess Game Jam 2022?', 'Poltergeist Heist', 'Color Plane', 'Właśnie tą', 'Grand Theft Auto: San Escobar'],
     ['Co było przyczyną sporu między Antygoną a Kreonem?', 'Pochowanie Polinika', 'Pochowanie Sofoklesa', 'Wypicie ostatniego piwa w Tebach', 'Spór był między Antygoną a Winicjuszem'],
     ['Kto jest wokalistą rumuńskiego zespołu Akcent?', 'Adrian Sînă', 'Zenon Martyniuk', 'Klaus Iohannis', 'Wruk'],
     ['Jaki ciąg znaków nie spełnia wyrażenia regularnego [A-Z][a-z]{3,}?', 'Nie wiadomo', 'Janusz', 'Ufhund./3GUfj111,2iu', 'Katowice'],
@@ -80,7 +80,7 @@ const trudneTemplate = [
     ['Jak nazywała się klacz Józefa Piłsudskiego?', 'Kasztanka', 'Marszałka', 'Twilight Sparkle', 'Maria Piłsudska'],
     ['Skąd pochodził Józef Stalin?', 'z Gruzji', 'z Rosji', 'z Austrii', 'z woj. dolnośląskiego'],
     ['Jak umarła Balladyna?', 'Została porażona piorunem', 'Została otruta', 'Balladyna nadal żyje', 'Za szybko'],
-    ['W jakim kierunku uczy się voxelbugged?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, jest tłumokiem', 'Technik Informatyk'],
+    ['W jakim kierunku ucze się?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, jest tłumokiem', 'Technik Informatyk'],
     ['Jak nazywał się kanclerz RFNu który wprowadził "Ostpolitik"?', 'Willy Brandt', 'Kurt Georg Kiesinger', 'Henry Kissinger', 'Ostpolitik było w NRD'],
     ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'ggfaja.gif', 'menel.vbs.png.docx.js.exe'],
     ['Jak nazywał się mistrz z filmu Magnaci i Czarodzieje?', 'Stachu Jones', 'Gandalf', 'Mateusz Trablin', 'Pateusz Treplin'],
