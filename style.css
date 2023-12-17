@@ -20,29 +20,41 @@ button
     width: 200px;
     height: 100px;
     font-family: 'Comic Sans MS';
-    background-color: bisque;
+    background-color: #152151;
     margin: 0;
     padding: 0;
     font-size:125%;
+    color:white;
+    text-shadow: 2px 2px 0 #080d21;
+    border:3px white solid;
+    border-radius:5px;
+}
+
+button:hover
+{
+    background-color:#080d21;
 }
 body, html
 {
     text-align:center;
     margin:0;
-    background-color:lightgoldenrodyellow;
+    background-image:url("heximuscrop.png");
+    background-size:cover;
     font-family:'Comic Sans MS';    
     overflow:hidden;
+    color:white;
+    text-shadow: 2px 2px 0 #080d21;
 }
 #pytanie
 {
-    font-size:200%;
+    font-size:250%;
     width:100%;
     padding:2vh;
 }
 #naglowek
 {
     font-size:150%;
-    background-color:bisque;
+    background-color:#152151;
     height:15vh;
 }
 h1, p
@@ -52,12 +64,12 @@ h1, p
 #wygrana
 {
     font-size:200%;
-    color:green;
+    color:lightgreen;
 }
 #przegrana
 {
     font-size:200%;
-    color:red;
+    color:lightpink;
 }
 #gra
 {
@@ -66,5 +78,15 @@ h1, p
 #stopka
 {
     height:5vh;
-    background-color:bisque;    
+    background-color:#152151;    
+}
+#faja
+{
+    width: 64px;
+    image-rendering: pixelated;
+}
+a:link, a:visited
+{
+    color:skyblue;
+    text-decoration:none;
 }

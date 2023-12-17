@@ -1,4 +1,4 @@
-const latwe = [
+const latweTemplate = [
     ['Ile było trzech króli?', '3', 'Był jeden trzech król', 'Nieskończenie wiele', '471829'],
     ['Jaka marka jest znana za słynne trzy paski?', 'Adidas', 'Nike', 'Menelumpex', 'Tripoloski'],
     ['Dokończ modlitwę: "Odpuść nam nasze winy, jako i my odpuszczamy naszym..."', 'winowajcom', 'piwowajcom', 'nauczycielom', 'Ja nie odpuszczam nikomu!!!'],
@@ -10,7 +10,7 @@ const latwe = [
     ['Dokończ przysłowie: "Gdzie diabeł nie może..."', 'tam babę pośle', 'tam Tucka pomoże', 'to Zachodnie Pomorze', 'Jezus dosięgnie'],
     ['Jak ma na imię Syn Boży?', 'Jezus Chrystus', 'Jezus Chytrus Superstar', 'Abraham', 'Abrakadabra'],
     ['Jak nazywa się hymn Polski?', 'Mazurek Dąbrowskiego', 'Polonez Piłsudskiego', 'Hymn państwowy Uzbekistanu', 'Kochana wierzę w miłość'],
-    ['Co to jest femboy?', 'Chłop który wygląda jak baba', 'Malezyjski nawóz sztuczny', 'np. Mariusz Pudzianowski', 'Najsilniejszy polski wojownik'],
+    ['Co to jest femboy?', 'Chłop który wygląda jak baba', 'Malezyjski nawóz sztuczny', 'Inaczej Technik Programista', 'Najsilniejszy polski wojownik'],
     ['Co zazwyczaj mówimy na końcu modlitwy?', 'Amen', 'Alleluja', 'Afromental', 'Alhamdulillah'],
     ['Jak nazywa się największy gatunek żaby?', 'Goliat', 'Beata Szydło', 'Dużyżabus', 'Ropucha Szara'],
     ['Według legendy, kto założył Polskę?', 'Lech', 'Czech', 'Rus', 'Pambuk'],
@@ -24,9 +24,10 @@ const latwe = [
     ['Jak naukowo nazywa się sól kuchenna?', 'Chlorek sodu', 'Siurczan kutasu', 'Siarczan potasu', 'Azbestek plastiku'],
     ['W którym roku powstał Windows 95?', '1995', '1195', '95 mln. lat p.n.e.', 'Windows 95 nie istnieje, 11 jest najnowszy'],
     ['Dlaczego nie możemy palić ognisk w lesie?', 'Bo jest ryzyko pożaru', 'Ta? To pa tera', 'Bo strażacy przyjdą i zgaszą', 'Bo nie mamy zapalniczki'],
-    ['Co oznacza skrót PiS?', 'Prawo i Sprawiedliwość', 'Prezes i Spółka', 'Piwo i Spirytus', 'Prawo i Zjednoczona Demokracja Autonomiczna']
+    ['Co oznacza skrót PiS?', 'Prawo i Sprawiedliwość', 'Prezes i Spółka', 'Piwo i Spirytus', 'Prawo i Zjednoczona Demokracja Autonomiczna'],
+    ['Jaka firma kontroluje serwis społecznościowy Reddit?', 'Reddit', 'Zakład Ubezpieczeń Społecznych', 'MySpace', 'Ruskij Serwis Propagandy']
 ];
-const srednie = [
+const srednieTemplate = [
     ['Jak ma na imię voxelbugged, twórca tej zacnej gry?', 'Jędrzej Kawa', 'Macij Hawyr', 'Andrzej Harkot', 'Jorge Mario Bergoglio'],
     ['Jakiego wyznania był św. Monitor?', 'Katolicyzm', 'Patolicyzm', 'PC Master Race', 'Prawosławie'],
     ['Jak miał na nazwisko Wolter?', 'Arouet', 'Wolter', 'White', 'François-Marie'],
@@ -43,18 +44,20 @@ const srednie = [
     ['Jak nazywa się obecny premier Polski?', 'Donald Tusk', 'Mateusz Morawiecki', 'gen. Wojciech Jaruzelski', 'Ramzan Achmatowicz Kadyrow'],
     ['Co znajdziemy na stronie kanyewest.eu?', 'Najlepszy fanclub Kanyego Westa', 'Oficjalną stronę Kanyego Westa', 'Oficjalną stronę Kanyego Easta', 'Sens życia'],
     ['Kto wygrał polskie wybory prezydenckie w 2010 roku?', 'Bronisław Komorowski', 'Paweł Panas', 'Jarosław Kaczyński', 'Polska ma premiera a nie prezydenta'],
-    ['Jakie słowa znajdziemy w utworze "Przez twe oczy zielone"?', 'O miłość walczyć to nie wstyd', 'O miłość walczyć to nie grzech', 'Makumba makumba makumba ska', 'Пацаны, наркотик КАЛ, В школе в коробке сдавал'],
+    ['Jakie słowa znajdziemy w utworze "Przez twe oczy zielone"?', 'O miłość walczyć to nie wstyd', 'O miłość walczyć to nie grzech', 'Makumba makumba, ło le le le...', 'Пацаны, наркотик КАЛ, В школе в коробке сдавал'],
     ['W eposie "Pan Tadeusz", jak nazywał się żyd grający na cymbałach?', 'Jankiel', 'Cymbał to jesteś ty!', 'Bibi', 'Nie było takiej postaci'],
     ['Jak nazywa się gładka warstwa lodu pokrywająca podłoże?', 'Gołoledź', 'Goło leć', 'Soplica', 'Lodzica'],
     ['Gdzie leży San Escobar?', 'W umyśle pewnego ministra spraw zagranicznych', 'W Ameryce Południowej', 'W Afryce Środkowej', 'W Ameryce Północnej'],
     ['Jaki trunek jest najbardziej popularny w woj. lubelskim?', 'Wódka', 'Piwo', 'Widać zabory...', 'Spanish Brandy!'],
-    ['Jak ma na nazwisko Lewandowski?', 'Lewandowski', 'Robert', 'Ronaldinho', 'Mariusz'],
+    ['Jak ma na nazwisko Lewandowski?', 'Lewandowski', 'Robert', 'Robertinho', 'Mariusz'],
     ['Jakiego koloru jest czarna skrzynka w samolocie?', 'Pomarańczowego', 'Czarnego', 'Zależy od marki', 'Żadnego'],
     ['Dokończ zdanie: "Czym chata bogata..."', 'tym rada', 'co ukradnie tata', 'tak spada', 'sam w nie wpada'],
     ['Czy odpowiedziałeś/łaś poprawnie na poprzednie pytanie?', 'Tak', 'Nie', 'Nie pamiętam', 'Tak, ale odpowiem na to niepoprawnie'],
-    ['Jak nazywa się sławny ksiądz z Sandomierza?', 'Ojciec Mateusz', 'Ojciec Rydzyk', 'Ojciec Tadeusz', 'Ojciec Magda Gessler']
+    ['Jak nazywa się sławny ksiądz z Sandomierza?', 'Ojciec Mateusz', 'Ojciec Rydzyk', 'Ojciec Tadeusz', 'Ojciec Magda Gessler'],
+    ['Jakie słowa występują w pieśni I Brygady Legionów Polskich?', 'Legiony to żołnierska nuta, legiony to straceńców los', 'Ukradli gacie moimu tacie złodzieje!', 'Ooh wee ooh, I look just like Rivers Cuomo!', 'Chipi chipi chapa chapa dubi dubi daba daba'],
+    ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "You understand mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer, mit ner 40 Tausend Kilowatt Basskanone']
 ];
-const trudne = [
+const trudneTemplate = [
     ['Dlaczego voxelbugged jest wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
     ['Jak poprawnie zagrać tzw. "The Lick" na pianinie?', 'A B C D B G A', 'E E E E E E', 'G A C A E E D', 'G E E F D D'],
     ['Który król stworzył Państwo Kościelne?', 'Pepin III Krótki', 'Państwo kościelne założył papież', 'Peppino Spaghetti', 'Karol I Wielki'],  
@@ -64,7 +67,7 @@ const trudne = [
     ['Co było przyczyną sporu między Antygoną a Kreonem?', 'Pochowanie Polinika', 'Pochowanie Sofoklesa', 'Wypicie ostatniego piwa w Tebach', 'Spór był między Antygoną a Winicjuszem'],
     ['Kto jest wokalistą rumuńskiego zespołu Akcent?', 'Adrian Sînă', 'Zenon Martyniuk', 'Klaus Iohannis', 'Wruk'],
     ['Jaki ciąg znaków nie spełnia wyrażenia regularnego [A-Z][a-z]{3,}?', 'Nie wiadomo', 'Janusz', 'Ufhund./3GUfj111,2iu', 'Katowice'],
-    ['Kim był Ksiądz Robak dla Jacka Soplicy?', 'Sobą', 'Ojcem', 'Kuzynem', 'Sprzedawcą w monopolowym'],
+    ['Kim był Ksiądz Robak dla Jacka Soplicy?', 'Samym sobą', 'Ojcem', 'Kuzynem', 'Sprzedawcą w monopolowym'],
     ['Jaka firma produkuje samochód Lamborghini?', 'Volksvagen Group', 'Fiat', 'Ekonomik Zamość sp. z o.o.', 'Wehrmacht Group'],
     ['Jak nazywa się członek amerykańskiego zespołu Tally Hall który nosi niebieski krawat?', 'Zubin Sedghi', 'Joe Hawley', 'Joe Mama', 'Cyrus II Wielki'],
     ['Jak nazywał się układ ZSRR który powstał jako reakcja na NATO?', 'Układ Warszawski', 'Układ Moskiewski', 'PATOLA', 'Ruskij Pakt Ochronnyj'],
@@ -79,16 +82,23 @@ const trudne = [
     ['Jak umarła Balladyna?', 'Została porażona piorunem', 'Została otruta', 'Balladyna nadal żyje', 'Za szybko'],
     ['W jakim kierunku uczy się voxelbugged?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, jest tłumokiem', 'Technik Informatyk'],
     ['Jak nazywał się kanclerz RFNu który wprowadził "Ostpolitik"?', 'Willy Brandt', 'Kurt Georg Kiesinger', 'Henry Kissinger', 'Ostpolitik było w NRD'],
-    ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'kanyewest.eu/grawideo.html', 'menel.vbs.png.docx.js.exe'],
-    ['Jak nazywał się mistrz z filmu Magnaci i Czarodzieje?', 'Stachu Jones', 'Gandalf', 'Mateusz Trablin', 'Pateusz Treplin']
+    ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'ggfaja.gif', 'menel.vbs.png.docx.js.exe'],
+    ['Jak nazywał się mistrz z filmu Magnaci i Czarodzieje?', 'Stachu Jones', 'Gandalf', 'Mateusz Trablin', 'Pateusz Treplin'],
+    ['Jakiej narodowości nie lubi DisStream?', 'Greków', 'Polaków', 'Watykańczyków', 'Wszystkich jednakowo'],
+    ['Według oficjalnych statystyk, jaki procent głosów dostał Saddam Husajn w wyborach prezydenckich Iraku 2002?', '100%', '93,5%', '32,7%, przejął władzę siłą', '0%, ponieważ nie startował'],
+    ['Kto odkrył Przylądek Dobrej Nadziei?', 'Bartolomeu Dias', 'Zbyszek da Gama', 'Ferdynand Magellan', 'Manul Magellan']
 ];
 
+var latwe = latweTemplate;
+var srednie = srednieTemplate;
+var trudne = trudneTemplate;
 
 var pytanie = 1;
 var poprawna = "";
 var temporary = [];
 var numarray = [1, 2, 3, 4]
 var numerek = 0;
+var endless = false;
 
 function randomize(values) //bardzo oryginalny kod do not steal
 {
@@ -108,13 +118,13 @@ function randomize(values) //bardzo oryginalny kod do not steal
 }
 function generuj()
 {
-    if(pytanie < 6)
+    if(pytanie < 7)
     {
         numerek = Math.floor(Math.random()*latwe.length);
         temporary = latwe[numerek]
         latwe.splice(numerek,1);
     }
-    else if(pytanie < 11)
+    else if(pytanie < 13)
     {
         numerek = Math.floor(Math.random()*srednie.length);
         temporary = srednie[numerek]
@@ -139,7 +149,7 @@ function odp(odpowiedz)
     if(document.getElementById(odpowiedz).innerHTML == poprawna)
     {
         pytanie++;
-        if(pytanie == 16)
+        if(pytanie == 19)
         {
             document.getElementById("gra").innerHTML = "<a id='wygrana'>Kongratulejszyns! Wygrałeś/łaś/łoś i udowodniłeś/łaś/łoś że nie jesteś/taś/toś debilem/lam/lom!</a> <br> <button onclick='location.reload();'>Zagraj ponownie?</button>";
         }
