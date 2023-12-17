@@ -58,7 +58,7 @@ const srednieTemplate = [
     ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "Mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer']
 ];
 const trudneTemplate = [
-    ['Dlaczego jestem wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
+    ['Dlaczego voxelbugged jest wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
     ['Jak poprawnie zagrać tzw. "The Lick" na pianinie?', 'A B C D B G A', 'E E E E E E', 'G A C A E E D', 'G E E F D D'],
     ['Który król stworzył Państwo Kościelne?', 'Pepin III Krótki', 'Państwo kościelne założył papież', 'Peppino Spaghetti', 'Karol I Wielki'],  
     ['Jak nazywał się nauczyciel w brytyjskim sitcomie pt. "Mind Your Language"?', 'Jeremy Brown', 'Grzegorz Braun', 'George White', 'Walter White'],
