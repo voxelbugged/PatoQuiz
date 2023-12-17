@@ -80,7 +80,7 @@ const trudneTemplate = [
     ['Jak nazywała się klacz Józefa Piłsudskiego?', 'Kasztanka', 'Marszałka', 'Twilight Sparkle', 'Maria Piłsudska'],
     ['Skąd pochodził Józef Stalin?', 'z Gruzji', 'z Rosji', 'z Austrii', 'z woj. dolnośląskiego'],
     ['Jak umarła Balladyna?', 'Została porażona piorunem', 'Została otruta', 'Balladyna nadal żyje', 'Za szybko'],
-    ['W jakim kierunku ucze się?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, jest tłumokiem', 'Technik Informatyk'],
+    ['W jakim kierunku ucze się?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, bo jesteś tłumokiem!', 'Technik Informatyk'],
     ['Jak nazywał się kanclerz RFNu który wprowadził "Ostpolitik"?', 'Willy Brandt', 'Kurt Georg Kiesinger', 'Henry Kissinger', 'Ostpolitik było w NRD'],
     ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'ggfaja.gif', 'menel.vbs.png.docx.js.exe'],
     ['Jak nazywał się mistrz z filmu Magnaci i Czarodzieje?', 'Stachu Jones', 'Gandalf', 'Mateusz Trablin', 'Pateusz Treplin'],
