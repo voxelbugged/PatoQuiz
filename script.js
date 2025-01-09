@@ -1,7 +1,7 @@
 const latweTemplate = [
     ['Ile było trzech króli?', '3', 'Był jeden trzech król', 'Nieskończenie wiele', '471829'],
     ['Jaka marka jest znana za słynne trzy paski?', 'Adidas', 'Nike', 'Menelumpex', 'Tripoloski'],
-    ['Dokończ modlitwę: "Odpuść nam nasze winy, jako i my odpuszczamy naszym..."', 'winowajcom', 'piwowajcom', 'nauczycielom', 'Ja nie odpuszczam nikomu!!!'],
+    ['Dokończ modlitwę: "Odpuść nam nasze winy, jako i my odpuszczamy naszym..."', 'winowajcom', 'piwowajcom', 'wódkowajcom', 'Ja nie odpuszczam nikomu!!!'],
     ['Gdzie znajduje się Sosnowski Park Narodowy?', 'Nie ma takiego parku', 'Tam gdzie Sosnowiec', 'W woj. lubelskim', 'W woj. irkuckim'],
     ['Kim był Jan Paweł I dla Jana Pawła II?', 'Poprzednikiem', 'Następcą', 'Przestępcą', 'Kuzynem'],
     ['Co obchodzimy 3 maja?', 'Uchwalenie konstytucji 3 maja', 'Dzień wolny od dnia wolnego od pracy', 'Święto flagi', 'Urodziny Wasilija Wołodina'],
