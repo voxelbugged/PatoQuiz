@@ -40,9 +40,8 @@ const srednieTemplate = [
     ['Gdzie odbyła się bitwa pod Grunwaldem?', 'pod Grunwaldem', 'w 1410', 'w 1140', 'w 1989'],
     ['Kto był faworytem rodziny cara rosyjskiego Mikołaja II?', 'Rasputin', 'Dvaputin', 'Triputin', 'Vladimir Putin'],
     ['Jakiego aktora nie lubi moja mama w Barwach Szczęścia?', 'Rolnickiego', 'Rolnika który szuka żony', 'Rysia z Klanu', 'tego o'],
-    ['Jak nazywa się pierwszy utwór na pierwszym albumie zespołu Tally Hall?', 'Good Day', 'Welcome to Tally Hall', 'Świat według Kiepskich', 'Koko Koko Euro Spoko'],
     ['Jak nazywa się obecny premier Polski?', 'Donald Tusk', 'Mateusz Morawiecki', 'gen. Wojciech Jaruzelski', 'Ramzan Achmatowicz Kadyrow'],
-    ['Co znajdziemy na stronie kanyewest.eu?', 'Najlepszy fanclub Kanyego Westa', 'Oficjalną stronę Kanyego Westa', 'Oficjalną stronę Kanyego Easta', 'Sens życia'],
+    ['Co znajdziemy na stronie kanyewest.eu?', 'Obecnie nic :(', 'Oficjalną stronę Kanyego Westa', 'Oficjalną stronę Kanyego Easta', 'Sens życia'],
     ['Kto wygrał polskie wybory prezydenckie w 2010 roku?', 'Bronisław Komorowski', 'Paweł Panas', 'Jarosław Kaczyński', 'Polska ma premiera a nie prezydenta'],
     ['Jakie słowa znajdziemy w utworze "Przez twe oczy zielone"?', 'O miłość walczyć to nie wstyd', 'O miłość walczyć to nie grzech', 'Makumba makumba, ło le le le...', 'Пацаны, наркотик КАЛ, В школе в коробке сдавал'],
     ['W eposie "Pan Tadeusz", jak nazywał się żyd grający na cymbałach?', 'Jankiel', 'Cymbał to jesteś ty!', 'Bibi', 'Nie było takiej postaci'],
@@ -55,7 +54,8 @@ const srednieTemplate = [
     ['Czy odpowiedziałeś/łaś poprawnie na poprzednie pytanie?', 'Tak', 'Nie', 'Nie pamiętam', 'Tak, ale odpowiem na to niepoprawnie'],
     ['Jak nazywa się sławny ksiądz z Sandomierza?', 'Ojciec Mateusz', 'Ojciec Rydzyk', 'Ojciec Tadeusz', 'Ojciec Magda Gessler'],
     ['Jakie słowa występują w pieśni I Brygady Legionów Polskich?', 'Legiony to żołnierska nuta, legiony to straceńców los', 'Ukradli gacie moimu tacie złodzieje!', 'Ooh wee ooh, I look just like Rivers Cuomo!', 'Chipi chipi chapa chapa dubi dubi daba daba'],
-    ['Jakie słowa występują w "Final Duet" z OMORI?', 'Żadne', 'O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo', "Mechanical hands are the Ruler of Everything", 'Ja, das ist mein Disco Panzer']
+    ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'ggfaja.gif', 'menel.vbs.png.docx.js.exe'],
+    ['Co to jest alternator?', 'Prądnica prądu przemiennego', 'Prądnica prądu stałego', 'Męska alternatywka', 'Gnom żyjący w akumulatorze'],
 ];
 const trudneTemplate = [
     ['Dlaczego voxelbugged jest wielkim fanem zakolanówek?', 'Bo mają trzy paski, jak Adidas', 'Bo jest technikiem programistą', 'Bo jest femboyem', 'Bo jest sponsorowany przez ich producenta'],
@@ -74,7 +74,7 @@ const trudneTemplate = [
     ['Jaki tytuł miała Kay Faraday z gry Ace Attorney: Investigations?', 'The Great Thief Yatagarasu', 'Chytra baba z Kalifornii', 'Hoxton', 'Phoenix Wright'],
     ['Jak nazywa się główny antagonista serialu Breaking Bad?', 'Gustavo Fring', 'Gustavo Pierdollini', 'Sus Amogus', 'Los Pollo Hermano'],
     ['W którym roku została opublikowana gra SimCity 2000?', '1993', '2000', '2020', '966'],
-    ['Jak zmarł 39 prezydent USA, Jimmy Carter?', 'Jimmy Carter żyje!', 'W zamachu na Jana Pawła MCCXXVI', 'Z przyczyn naturalnych w hospicjum', 'Został postrzelony'],
+    ['Jak zmarł 44 prezydent USA, Barack Obama?', 'Barack Obama żyje!', 'W zamachu na Jana Pawła MMCXXXVII', 'Na czerniaka skóry', 'Bardzo szybko'],
     ['W jakim rytmie jest utrzymana kolęda "Bóg się rodzi"?', 'Poloneza', 'Walca', 'Stożka', 'Graniastosłupa'],
     ['Kto wykonał piosenkę "Bad to the Bone"?', 'George Thorogood', 'Kurt Cobain', 'Fryderyk Chopin', 'Curt Kombajn'],
     ['Jak nazywała się klacz Józefa Piłsudskiego?', 'Kasztanka', 'Marszałka', 'Twilight Sparkle', 'Maria Piłsudska'],
@@ -82,11 +82,11 @@ const trudneTemplate = [
     ['Jak umarła Balladyna?', 'Została porażona piorunem', 'Została otruta', 'Balladyna nadal żyje', 'Za szybko'],
     ['W jakim kierunku ucze się?', 'Technik Programista', 'Projektant słabych quizów', 'Żadnym, bo jesteś tłumokiem!', 'Technik Informatyk'],
     ['Jak nazywał się kanclerz RFNu który wprowadził "Ostpolitik"?', 'Willy Brandt', 'Kurt Georg Kiesinger', 'Henry Kissinger', 'Ostpolitik było w NRD'],
-    ['W którym pliku znajdują się pytania i odpowiedzi do quizu?', 'script.js', 'odpowiedzi.js', 'ggfaja.gif', 'menel.vbs.png.docx.js.exe'],
     ['Jak nazywał się mistrz z filmu Magnaci i Czarodzieje?', 'Stachu Jones', 'Gandalf', 'Mateusz Trablin', 'Pateusz Treplin'],
     ['Jakiej narodowości nie lubi DisStream?', 'Greków', 'Polaków', 'Watykańczyków', 'Wszystkich jednakowo'],
     ['Według oficjalnych statystyk, jaki procent głosów dostał Saddam Husajn w wyborach prezydenckich Iraku 2002?', '100%', '93,5%', '32,7%, przejął władzę siłą', '0%, ponieważ nie startował'],
     ['Kto odkrył Przylądek Dobrej Nadziei?', 'Bartolomeu Dias', 'Zbyszek da Gama', 'Ferdynand Magellan', 'Manul Magellan']
+    ['Jak nazywa się pierwszy utwór na pierwszym albumie zespołu Tally Hall?', 'Good Day', 'Welcome to Tally Hall', 'Świat według Kiepskich', 'Koko Koko Euro Spoko'],
 ];
 
 var latwe = latweTemplate;
